@@ -6,6 +6,7 @@ header('https://www.facebook.com/IdhamDotID');
 die();
 }
 
+
     error_reporting(0);
     $namaloajg = $_GET['name'];
     $freeman1 = ucfirst($namaloajg);
